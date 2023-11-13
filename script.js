@@ -5,19 +5,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const carData = {
         car1: {
-            name: "Golf R",
-            price: "R$325.000",
-            description: "Um carro incrível com ótimo consumo de combustível."
+            name: "Golf GTI",
+            price: "R$150.000",
+            description: "2.0 GTI 16V TURBO GASOLINA 4P AUTOMÁTICO - Um carro incrível com ótimo consumo de combustível."
         },
         car2: {
-            name: "Ferrari 488 2019 GTB 3.9 V8 670 cv",
+            name: "Ferrari 488",
             price: "R$3.234.848",
-            description: "Um carro esportivo com alta velocidade."
+            description: "3.9 V8 TURBO GASOLINA F1-DCT - Um carro esportivo com alta velocidade."
         },
         car3: {
             name: "BMW X6",
             price: "R$744.950",
-            description: "Um carro econômico e compacto."
+            description: "3.0 TWINPOWER GASOLINA XDRIVE40I M SPORT AUTOMÁTICO - Um carro para quem gosta de velocidade e conforto."
         }
     };
 
