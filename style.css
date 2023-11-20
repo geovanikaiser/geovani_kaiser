@@ -2,6 +2,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 30px;
+}
+
+select {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.default {
+    color: #fff;
+    background-color: #ff9900;
 }
 
 header {
@@ -9,6 +45,8 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
 }
 
 nav ul {
@@ -27,6 +65,7 @@ nav a {
 }
 
 section {
+    flex: 1;
     padding: 40px;
     text-align: center;
 }
@@ -36,6 +75,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
 }
 
 h1 {
@@ -43,9 +84,21 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 100px;
 }
 
 a:hover {
+    color: #ff9900;
+}
+
+header:hover {
+    opacity: 1;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+button:hover {
     color: #ff9900;
 }
